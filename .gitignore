@@ -1,0 +1,59 @@
+# Build folders
+bin/
+obj/
+out/
+
+# Rider / VSCode / VS
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Configs locais / secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+**/Dockerfile
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# SQL Server - arquivos de backup locais
+*.mdf
+*.ldf
+*.bak
+
+# Testes e cobertura
+TestResults/
+*.coverage
+*.coveragexml
+coverage/
+coverage*.json
+lcov.info
+
+# Publish
+publish/
+*.Publish.xml
